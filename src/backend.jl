@@ -2,7 +2,7 @@ using Gadfly
 using Dates
 using Cairo
 
-function collect_indiv_plot(filename::ASCIIString)
+function collectl_indiv_plot(filename::ASCIIString)
 	#filename = ARGS[1]
 	#@show ARGS
 	a = readdlm(filename, ' ', skipstart = 15, comments = false)
