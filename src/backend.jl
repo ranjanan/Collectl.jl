@@ -1,7 +1,9 @@
 using Gadfly
 using Dates
 using Cairo
+@docstrings
 
+@doc "Basic doc " -> 
 function collectl_indiv_plot(filename::ASCIIString)
 	#filename = ARGS[1]
 	#@show ARGS
